@@ -27,7 +27,7 @@ Clasification recommendation for the book.
 
 ### The `Book` **Coding required**
 
-A Book is related to a single author. A Book is assigned a unique industry ISBN. The Genre is from an enum list. A Book may have many reviews. An author may send books to individuals for review before the book is actually published to assist in promotion. A reviewer can only give one review for the book. The Room will track:
+A Book is related to a single author. A Book is assigned a unique industry ISBN. The Genre is from an enum list. A Book may have many reviews. An author may send books to individuals for review before the book is actually published to assist in promotion. A reviewer can only give one review for the book. The Book will track:
 
 - **ISBN** - This identifies the Book. It can not be null.
 - **Title** - This is the title of the Book. It can not be null.
